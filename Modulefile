@@ -1,4 +1,4 @@
-name          'dgu_solr'
+name          'dgu-solr'
 version       '0.0.1'
 source        'UNKNOWN'
 author        'Silex Consulting'
