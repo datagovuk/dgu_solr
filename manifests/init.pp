@@ -1,4 +1,7 @@
 class dgu_solr(){
-  #dummy class to fool puppet librarian that we are a bone fide module
-  # This module only exists to contain dgu's solr config.
+  class { 'solr':
+    source_dir                => "puppet:///modules/dgu_solr/solr",
+    source_dir_purge          => true,
+  }
 }
+
